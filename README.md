@@ -16,9 +16,10 @@ This template is based in Twitter Bootstrap, for Joomla! 2.5. This is a great fi
 
 <strong>For modules:</strong>
 
-<p>for example, Feature position, you sort a row of three columns.</p>
+<p>for example, Feature position, you sort a row of four columns.</p>
 Module 1 (Feature 1): Module Class Suffix: span3<br>
 Module 2 (Feature 2): Module Class Suffix: span3<br>
 Module 3 (Feature 3): Module Class Suffix: span3<br>
+Module 4 (Feature 4): Module Class Suffix: span3<br>
 
 <h3>that's all!</h3>
