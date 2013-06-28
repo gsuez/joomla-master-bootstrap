@@ -23,3 +23,21 @@ Module 3 (Feature 3): Module Class Suffix: span3<br>
 Module 4 (Feature 4): Module Class Suffix: span3<br>
 
 <h3>that's all!</h3>
+
+<strong>Positions</strong>
+<ul>
+  <li>top</li>
+  <li>logo</li>
+  <li>search</li>
+  <li>breadcrumbs</li>
+  <li>navigation</li>
+  <li>showcase</li>
+  <li>feature</li>
+  <li>above</li>
+  <li>left</li>
+  <li>right</li>
+  <li>content-top</li>
+  <li>content-bottom</li>
+  <li>bottom </li>
+  <li>footer</li>
+</ul>
