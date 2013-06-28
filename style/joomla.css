@@ -1,0 +1,187 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* style by Gonzalo Suez */
+
+.component-content .article-info {
+    display: block;
+    font-size: 13px;
+    margin-bottom: 15px;
+}
+
+.component-content .items-leading {
+    margin-bottom: 25px;
+}
+
+.component-content .items-row, .component-content .items-leading {
+    margin-bottom: 10px;
+}
+
+.article-info-term {
+    display: none;
+}
+.component-content .article-info dd:before {
+    font-family: FontAwesome;
+    margin-right: 2px;
+}
+.article-info dd:before {
+    text-shadow: 1px 1px 0 #FFFFFF;
+}
+.component-content .article-info dd {
+    display: block;
+    margin-left: 0;
+}
+.actions {
+    list-style: none;
+}
+.print-icon {
+    display: inline;
+    float: right;
+}
+
+.email-icon {
+    float: right;
+    display: inline;
+}
+
+dl.article-info {
+ 	border-bottom: 1px solid #DDDDDD;
+    border-top: 1px solid #DDDDDD;
+    margin-bottom: 20px;
+    padding: 5px 0;
+}
+
+.article-info dd, .article-info-term {
+    display: inline-block;
+}
+
+#system-message {
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+
+#system-message > dd > ul {
+    margin-left: 0;
+}
+
+.title{
+/*	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);*/
+}
+
+.module-title h3 {
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 20px;
+    margin-top: 0;
+}
+
+.readon{
+    color: #FFFFFF;
+    display: inline-block;
+    font-size: 13px;
+    line-height: 20px;
+    margin-top: 3px;
+    padding: 5px 8px;
+	background:#1570A6;
+}
+
+.readon a, .readon a:visited {
+    color: #FFFFFF;
+    display: inline-block;
+    font-size: 13px;
+    line-height: 20px;
+    margin-top: 3px;
+    padding: 5px 8px;
+    text-decoration: none;
+}
+
+.readon:hover {
+    background: #10608f;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.search-module {
+    padding: 100px;
+    padding: 0;
+    margin-bottom: -15px;
+    margin-top: 5px;
+}
+
+.search {
+    padding: 0px;
+}
+.list-striped, .row-striped {
+    border-top: 1px solid #DDDDDD;
+    line-height: 18px;
+    list-style: none outside none;
+    margin-left: 0;
+    text-align: left;
+    vertical-align: middle;
+}
+
+table.category {
+    width: 100%;
+}
+tr.cat-list-row1 {
+    border-top: 1px solid #ddd;
+    background: #eee;
+}
+tr.cat-list-row0 {
+    border-top: 1px solid #ddd;
+}
+
+/*NAVIGATION*/
+
+.navbar .nav > li > a {
+    color: #222222;
+    float: none;
+    padding: 10px 15px;
+    text-shadow: 0 1px 0 #FFFFFF;
+}
+
+.navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus {
+    color: #222222;
+}
+
+.navbar .nav > li > a:focus, .navbar .nav > li > a:hover {
+    background-color: #eee;
+    color: #222;
+}
+
+.dropdown.open {
+    display: block;
+}
+
+.navbar .nav li.dropdown.open>.dropdown-toggle,.navbar .nav li.dropdown.active>.dropdown-toggle,.navbar .nav li.dropdown.open.active>.dropdown-toggle{
+color:#222!important;
+}
+
+.dropdown-menu {
+    background-color: #EEEEEE;
+}
+
+.dropdown-menu li > a {
+    padding: 5px 20px;
+    color: #222!important;
+}
+.dropdown-menu li > a:hover, .dropdown-menu li > a:focus, .dropdown-submenu:hover > a {
+    background-color: #ddd!important;
+    color: #222!important;
+ 	background-image: none;
+
+}
+
+.dropdown-menu .active > a, .dropdown-menu .active > a:hover {
+    background-color: #eee!important;
+    color: #222!important;
+ 	background-image: none;
+   
+}
+.navbar .nav > li > .dropdown-menu:after {
+ 	background: none repeat scroll 0 0 transparent;
+    border-bottom: 8px solid #EEEEEE;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    top: -8px;
+}

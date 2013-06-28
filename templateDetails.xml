@@ -1,3 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/2.5/template-install.dtd">
 
+<extension version="2.5" type="template" method="upgrade">
+	
+	<name>Master Bootstrap!</name>
+	<creationDate>01 Dic 2012</creationDate>
+	<author>Gonzalo Suez</author>
+	<copyright>Copyright © 2012 gsuez.cl</copyright>
+	<authorEmail>info@gsuez.cl</authorEmail>
+	<authorUrl>http://www.gsuez.cl</authorUrl>
+	<version>Beta 1.0.3</version>
+	<description><![CDATA[ 
+		<h1>Master Bootstrap for Joomla!</h1>
+		<p>Un template para trabajar desde 0 con todas las ventajas de Twitter Bootstrap.</p>
+		<p>A template for work from scrath, with all advantages of Twitter Bootstrap.</p>
+		<p>Created by <a href="http://www.gsuez.cl" target="_blank">Gonzalo Suez </a></p>
+	]]></description>
+	
+	<files>
+		<folder>style</folder>
+		<folder>html</folder>
+		<folder>img</folder>
+		<folder>js</folder>
+	      <filename>apple-touch-icon-57x57.png</filename>
+		<filename>apple-touch-icon-72x72.png</filename>
+		<filename>apple-touch-icon-114x114.png</filename>
+		<filename>component.php</filename>
+		<filename>error.php</filename>
+		<filename>favicon.ico</filename>
+		<filename>index.php</filename>
+		<filename>offline.php</filename>
+		<filename>templateDetails.xml</filename>
+	</files>
+		
+	<positions><!-- define the positions for modules here -->
+ 		<position>top</position>
+        <position>logo</position>
+		<position>search</position>
+        <position>breadcrumbs</position>
+		<position>navigation</position>
+        <position>showcase</position>
+		<position>feature</position>
+ 		<position>above</position>
+        <position>left</position>
+        <position>right</position>
+        <position>content-top</position>
+        <position>content-bottom</position>
+        <position>bottom</position>    
+        <position>footer</position>
+		<position>debug</position>
+	</positions>
+	
+	<config><!-- no need to change -->
+		<fields name="params">
 
-  
+			<fieldset name="basic">
+
+				<field name="columnWidth" type="list" default="3" label="Column Width" description="Choose a width for your left and right columns">
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5</option>
+	<field type="spacer" hr="true" />
+				</field>
+			 
+			</fieldset>
+		</fields>
+	</config>
+	
+</extension>
