@@ -407,8 +407,7 @@ a.menu:after, .dropdown-toggle:after {
 }
 
 .menu > li > a:hover, .menu > li.active > a, .menu > li.parent:hover > a, .menu > li.active.parent > a, .menu > li > span.separator:hover, .menu > li.active > span.separator, .menu > li.parent:hover > span.separator, .menu > li.active.parent > span.separator {
-    background: none repeat scroll 0 0 #DE3510;
-    color: #FFFFFF;
+    color: #000;
 }
 .menu ul {
     border-top: 2px solid #DE3510;
