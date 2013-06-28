@@ -5,6 +5,8 @@ Created by Gonzalo Suez. See the official site for more info: http://bootstrap.g
 This template is based in Twitter Bootstrap, for Joomla! 2.5.
 
 <h3>Some features:</h3>
-1200px content
-modules organized by style css
-fixed footer
+<ul>
+<li>1200px content</li>
+<li>modules organized by style css</li>
+<li>fixed footer</li>
+</ul>
