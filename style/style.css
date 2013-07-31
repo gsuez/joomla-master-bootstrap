@@ -248,6 +248,21 @@ ul.the-icons {
     margin-left: 0;
 }
 
+.tip-wrap {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+
+}
+.tip-title {
+	display:none;
+
+}
+.tip-text {
+    background-color: #eee;
+	padding:5px;
+	border:1px solid #ccc;
+}
+
 /*RESPONSIVE*/
 
 @media only screen and (max-width : 480px){
