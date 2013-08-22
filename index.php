@@ -1,8 +1,7 @@
 <?php
-
 /*------------------------------------------------------------------------
 # author    Gonzalo Suez
-# copyright Copyright © 2012 gsuez.cl. All rights reserved.
+# copyright Copyright @2012 gsuez.cl. All rights reserved.
 # @license  http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL
 # Website   http://www.gsuez.cl
 -------------------------------------------------------------------------*/
@@ -14,10 +13,23 @@ $leftcolgrid 	= $this->params->get('columnWidth', 3);
 
 $rightcolgrid	= $this->params->get('columnWidth', 3);
 
+// Getting params from template
+$params = JFactory::getApplication()->getTemplate(true)->params;
+$app = JFactory::getApplication();
+$doc = JFactory::getDocument();
+$this->language = $doc->language;
+$this->direction = $doc->direction;
+
+// Detecting Active Variables
+$sitename = $app->getCfg('sitename');
+
+JHtml::_('behavior.caption');
+JHtml::_('bootstrap.framework');
+
 ?>
 
 <!DOCTYPE html>
-<html lang="<?php echo $this->language; ?>" >
+<html lang="<?php echo $this->language; ?>" dir="<?php echo $this->direction; ?>">
 
 <?php
 if ($this->countModules('left') == 0):?>
@@ -253,9 +265,6 @@ if ($this->countModules('right') == 0):?>
 <!-- page -->	
 
 <!-- JS -->
-
-<!-- <script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/js/jquery.js"></script> -->
-<script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/js/bootstrap.min.js"></script> 
 <!--<script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/js/application.js"></script> -->
 <!--<script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/js/prettify.js"></script> -->
 <script type="text/javascript">
