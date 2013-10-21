@@ -2,7 +2,7 @@
 
 /*------------------------------------------------------------------------
 # author    Gonzalo Suez
-# copyright Copyright © 2012 gsuez.cl. All rights reserved.
+# copyright Copyright ï¿½ 2012 gsuez.cl. All rights reserved.
 # @license  http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL
 # Website   http://www.gsuez.cl
 -------------------------------------------------------------------------*/
@@ -89,17 +89,14 @@ if ($this->countModules('right') == 0):?>
 <span class="icon-bar"></span> 
 <span class="icon-bar"></span> 
 </a> 
-<?php endif; ?>
-
-<?php if($this->countModules('navigation')) : ?>
 <div class="nav-collapse">
 <jdoc:include type="modules" name="navigation" style="none" />
 </div>
+</div>
+</div>
+</div>
+</div>
 <?php endif; ?>
-</div>
-</div>
-</div>
-</div>
 
 <!--Navigation-->
 
