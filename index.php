@@ -2,7 +2,7 @@
 
 /*------------------------------------------------------------------------
 # author    Gonzalo Suez
-# copyright Copyright © 2012 gsuez.cl. All rights reserved.
+# copyright Copyright ï¿½ 2012 gsuez.cl. All rights reserved.
 # @license  http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL
 # Website   http://www.gsuez.cl
 -------------------------------------------------------------------------*/
@@ -254,7 +254,7 @@ if ($this->countModules('right') == 0):?>
 
 <!-- JS -->
 
-<!-- <script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/js/jquery.js"></script> -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/js/bootstrap.min.js"></script> 
 <!--<script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/js/application.js"></script> -->
 <!--<script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/js/prettify.js"></script> -->
